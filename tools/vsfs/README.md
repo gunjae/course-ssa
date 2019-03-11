@@ -1,5 +1,7 @@
 # vsfs.py
 
+Origial source from http://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html
+
 Use this tool, vsfs.py, to study how file system state changes as various operations take place. The file system begins in an empty state, with just a root directory. As the simulation takes place, various operations are performed, thus slowly changing the on-disk state of the file system.
 
 -----------------

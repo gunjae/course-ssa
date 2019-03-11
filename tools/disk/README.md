@@ -1,5 +1,7 @@
 # disk.py
 
+Original source from http://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html
+
 disk.py is a simple HDD simulator written in Python. It has a lot of different options, and unlike most of the other simulations, has a graphical animator to show you exactly what happens when the disk is in action. 
 
 [Note: there is also an experimental program, 'disk-precise.py', included in the download. This version of the simulator uses the python Decimal package for precise floating point computation, thus giving slightly better answers in some corner cases than 'disk.py'. However, it has not been very carefully tested, so use at your own caution.]
