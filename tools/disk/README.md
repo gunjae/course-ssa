@@ -6,6 +6,13 @@ disk.py is a simple HDD simulator written in Python. It has a lot of different o
 
 [Note: there is also an experimental program, 'disk-precise.py', included in the download. This version of the simulator uses the python Decimal package for precise floating point computation, thus giving slightly better answers in some corner cases than 'disk.py'. However, it has not been very carefully tested, so use at your own caution.]
 
+## Dependencies
+
+This python program requires a python-tk package. Thus install the package as follows.
+
+	sudo apt install python-tk
+
+
 ## How to use
 
 Let's do a simple example first. To run the simulator and compute some basic seek, rotation, and transfer times, you first have to give a list of requests to the simulator. This can either be done by specifying the exact requests, or
